@@ -1,3 +1,10 @@
+# *Project Collaboration and Overview:*
+
+I collaborated with three talented team members to develop the CardioLens project. This AI-powered solution automates Echocardiogram Segmentation and generates detailed reports using Intel Optimized Models for medical image analysis.
+
+While the core research and AI model development were handled by the team, my role was to design and develop the frontend and backend for the project. The frontend provides an intuitive interface for healthcare professionals to interact with the system, and the backend manages video uploads, data processing, and integration with the segmentation models.
+
+# *Have a look at the Their Great Ai Model and My Development Below:*
 # *Team Details:*
 
 *Team Name:* Three of Hearts
