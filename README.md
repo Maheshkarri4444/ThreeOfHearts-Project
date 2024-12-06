@@ -188,12 +188,31 @@ Here's a concise set of instructions you can include in your GitHub repository f
      ```
    - Start the development server:
      ```bash
-     npm start
+     npm run dev
      ```
-   - The frontend should now be running on `http://localhost:3000` (or your configured port).
+   - The frontend should now be running on `http://localhost:5173` (or your configured port).
 
-2. **Access the Website:**
-   - Open your browser and go to `http://localhost:3000`.
+1. **Set Up Backend:**
+   - Open a new terminal and navigate to the frontend directory:
+     ```bash
+     cd 'Web Portal'
+     ```
+   - Install dependencies:
+     ```bash
+     npm install
+     ```
+   - Start the development server:
+     ```bash
+     npm run server
+     ```
+   - Also run the Flask server:
+     ```bash
+     python app.py
+     ```
+   - The backend should now be running on `http://localhost:5000` and Flask Server on `http://127.0.0.1:5000` (or your configured port).  
+
+3. **Access the Website:**
+   - Open your browser and go to `http://localhost:5173`.
 
 ---
 ### How to use the website
